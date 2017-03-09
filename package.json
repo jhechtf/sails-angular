@@ -31,6 +31,7 @@
     "rxjs": "^5.1.0",
     "sails": "~0.12.11",
     "sails-disk": "~0.10.9",
+    "typescript": "^2.0.10",
     "zone.js": "^0.7.6"
   },
   "devDependencies": {
@@ -39,7 +40,8 @@
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
     "codelyzer": "~2.0.0",
-    "grunt-typescript": "^0.8.0",
+    "grunt": "^1.0.1",
+    "grunt-ts": "^6.0.0",
     "jasmine-core": "~2.5.2",
     "jasmine-spec-reporter": "~3.2.0",
     "karma": "~1.4.1",
