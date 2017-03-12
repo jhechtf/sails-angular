@@ -11,7 +11,7 @@ module.exports = function (grunt) {
       compile: true, // perform compilation. [true (default) | false]
       comments: false, // same as !removeComments. [true | false (default)]
       target: 'es3', // target javascript language. [es3 | es5 (grunt-ts default) | es6]
-      module: 'amd', // target javascript module style. [amd (default) | commonjs]
+      module: 'system', // target javascript module style. [amd (default) | commonjs]
       sourceMap: true, // generate a source map for every output js file. [true (default) | false]
       sourceRoot: '', // where to locate TypeScript files. [(default) '' == source ts location]
       moduleResolution: 'node',

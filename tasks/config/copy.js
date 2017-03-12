@@ -24,6 +24,12 @@ module.exports = function(grunt) {
   grunt.config.set('copy', {
     dev: {
       files: [{
+        expand:true,
+        flatten:true,
+        cwd:'./node_modules/',
+        src:['core-js/client/shim.min.js','zone.js/dist/zone.js','reflect-metadata/Reflect.js', 'systemjs/dist/system.src.js'],
+        dest:'assets/js'
+      }, {
         expand: true,
         cwd: './assets',
         src: ['**/*.!(coffee|less)'],
