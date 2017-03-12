@@ -23,9 +23,9 @@ module.exports = function (grunt) {
     // a particular target
     dev: {
       src: ["ng-src/**/*.ts"], // The source typescript files, http://gruntjs.com/configuring-tasks#files
-      html: ['app/**/**.tpl.html'], // The source html files, https://github.com/basarat/grunt-ts#html-2-typescript-support
+      html: ['ng-src/**/**.tpl.html'], // The source html files, https://github.com/basarat/grunt-ts#html-2-typescript-support
       out: 'assets/js/angular.js', // If specified, generate an out.js file which is the merged js file
-      watch: 'ng-src', // If specified, watches this directory for changes, and re-runs the current target
+//      watch: 'ng-src', // If specified, watches this directory for changes, and re-runs the current target
       // use to override the grunt-ts project options above for this target
     }
   });

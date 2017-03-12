@@ -28,7 +28,7 @@ module.exports = function(grunt) {
         flatten:true,
         cwd:'./node_modules/',
         src:['core-js/client/shim.min.js','zone.js/dist/zone.js','reflect-metadata/Reflect.js', 'systemjs/dist/system.src.js'],
-        dest:'assets/js'
+        dest:'assets/js/dependencies'
       }, {
         expand: true,
         cwd: './assets',

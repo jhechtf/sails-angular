@@ -20,7 +20,7 @@ System.register("app/components/app/app.component", ['@angular/core'], function(
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
-                    this.title = 'Tour of Dildos';
+                    this.title = 'Tour of Heroes';
                 }
                 AppComponent = __decorate([
                     core_1.Component({
@@ -391,7 +391,7 @@ System.register("environment/environment", [], function(exports_11, context_11) 
         }
     }
 });
-System.register("main", ['@angular/core', '@angular/platform-browser-dynamic', "app/app.module", './environments/environment'], function(exports_12, context_12) {
+System.register("main", ['@angular/core', '@angular/platform-browser-dynamic', "app/app.module", "environment/environment"], function(exports_12, context_12) {
     "use strict";
     var __moduleName = context_12 && context_12.id;
     var core_8, platform_browser_dynamic_1, app_module_1, environment_1;
